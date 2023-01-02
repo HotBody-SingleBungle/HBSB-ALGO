@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/HBSB-ALGO.iml" filepath="$PROJECT_DIR$/.idea/HBSB-ALGO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SB/SB.iml" filepath="$PROJECT_DIR$/SB/SB.iml" />
+    </modules>
+  </component>
+</project>
