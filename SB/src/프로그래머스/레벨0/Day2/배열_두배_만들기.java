@@ -7,6 +7,7 @@ public class 배열_두배_만들기 {
                 numbers[i] *= 2;
             }
             return numbers;
+
         }
     }
 }
