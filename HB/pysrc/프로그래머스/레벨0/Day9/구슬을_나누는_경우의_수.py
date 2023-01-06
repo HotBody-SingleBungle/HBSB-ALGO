@@ -1,10 +1,9 @@
-answer = 0
-visited = [0]*balls
 def solution(balls, share):
-    for i in range(balls):
-        if not visited[i]:
-            visited[i] = 1
-            if visited.count(1) == share:
-                answer += 1
-            
+    answer = 1
+    n=balls
+    m=share
+    for i in range(n-m+1, n+1):
+        answer*=i
+    for i in range(1,m+1):
+        answer//=i
     return answer
