@@ -1,4 +1,4 @@
-package 프로그래머스.레벨0;
+package 프로그래머스.레벨0.Day9;
 
 public class 배열_자르기 {
     class Solution {
