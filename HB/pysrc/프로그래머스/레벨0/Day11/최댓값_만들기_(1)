@@ -1,0 +1,5 @@
+def solution(numbers):
+    a =numbers.pop(numbers.index(max(numbers)))
+    b =numbers.pop(numbers.index(max(numbers)))
+    answer = a*b
+    return answer
