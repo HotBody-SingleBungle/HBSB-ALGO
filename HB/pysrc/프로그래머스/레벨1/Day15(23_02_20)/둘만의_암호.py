@@ -6,7 +6,7 @@ def solution(s, skip, index):
         cnt = 0
         cnt_ = 0
 
-        for i in range(index + len(skip)):
+        for i in range(50):
 
             if ord(s[j])+i+1 < 123:
                 if ord(s[j])+i+1 in skip_idx:
@@ -24,7 +24,7 @@ def solution(s, skip, index):
                         break
 
             else:
-                if ord(s[j])+i-25 in skip_idx:
+                if ord(s[j])+i-25 in skip_idx or ord(s[j])+i-25-26 in skip_idx:
                     cnt_ += 1
                     pass
                 else:
@@ -38,5 +38,5 @@ def solution(s, skip, index):
                         break
     print(answer)
     return answer
-# solution('aukksz', 'xcvtyuighjkbnmiopjklmasdfw', 5)
+solution('z', 'abcdefghij', 20)
 # print(ord("}"))
