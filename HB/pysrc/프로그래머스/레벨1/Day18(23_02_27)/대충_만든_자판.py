@@ -7,4 +7,3 @@ def solution(keymap, targets):
     print(target)
     return answer
 solution([['a','s','v'],['c','d','e']], [['a','c','e','f'], ['g','y','e']])
-print('asdf'.index('a'))
